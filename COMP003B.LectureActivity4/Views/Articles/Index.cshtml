@@ -1,4 +1,4 @@
-@model IEnumerable<Article>
+@model IEnumerable<COMP003B.LectureActivity4.Models.Article>
 
 @{
     ViewData["Title"] = "Articles";
@@ -9,5 +9,5 @@
 
 @foreach (var article in Model)
 {
-    <partial nanme="_ArticleCard" model="article" />
+    <partial name="_ArticleCard" model="article" />
 }
